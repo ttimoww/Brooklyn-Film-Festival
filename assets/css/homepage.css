@@ -1,0 +1,229 @@
+/* GRID */
+.side-big{
+  height: 100vh;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.side-big:hover{
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.side-small-1, .side-small-2{
+  height: 50vh;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.side-small:hover, .side2-small:hover{
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+/* BACKGROUND IMAGES */
+.background-images{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#img1{
+  background-image: url(../../img/1-min.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#img2{
+  background-image: url(../../img/2-min.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#img3{
+  background-image: url(../../img/3-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img4{
+  background-image: url(../../img/4-min.jpg);
+  background-size: cover;
+  background-position: right;
+}
+
+#img5{
+  background-image: url(../../img/5-min.jpg);
+  background-size: cover;
+  background-position: 50% 80%;
+}
+
+#img6{
+  background-image: url(../../img/6-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* SECTION 1 + 2 + 3 */
+#section1{
+  height: 100vh;
+  background-color: rgba(126, 255, 245,0.8);
+}
+
+#section1:hover{
+  background-color: rgba(126, 255, 245,0.6);
+}
+
+#section2{
+  background-color: rgba(255, 250, 101,0.9);
+}
+
+#section2:hover{
+  background-color: rgba(255, 250, 101,0.6);
+}
+
+#section3{
+  background-color: rgba(50, 255, 126,0.9);
+}
+#section3:hover{
+  background-color: rgba(50, 255, 126,0.6);
+}
+
+#section1-container{
+  padding: 50px 0px 0px 50px;
+}
+
+#section1-container h3{
+  font-size: 3em;
+  margin-top: 100px;
+  margin-bottom: 50px;
+  width: 70%;
+  font-style: italic;
+}
+
+#section1 ul{
+  list-style: none;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  padding: 0px;
+}
+
+#section1 ul li{
+  display: inline;
+  padding: 5px;
+}
+
+#section1 ul li a img{
+  height: 30px;
+}
+
+.section1-buttons a{
+  display: block;
+  color: #FFF;
+  font-family: RobotoSlabLight;
+  margin-top: 10px;
+}
+
+.section1-buttons img{
+  height: 15px;
+}
+
+@media screen and (max-width: 650px){
+  #section1-container{
+    padding: 5px;
+  }
+  #section1-container h3{
+    width: 100%;
+    margin-top: 20px;
+    font-size: 1.8em;
+  }
+
+  #section1 ul{
+    margin-top: 20px;
+  }
+}
+
+@media screen (min-width: 576px), (max-width: 1100px){
+  #section1-container h3{
+    width: 100%;
+  }
+}
+
+/* SECTION 4 + 5 + 6 */
+#section4{
+  background-color: rgba(75, 75, 75,0.8);
+}
+#section4:hover{
+  background-color: rgba(75, 75, 75,0.4);
+}
+
+#section5{
+  background-color: rgba(205, 132, 241,0.9);
+}
+
+#section5:hover{
+  background-color: rgba(205, 132, 241,0.6)
+}
+
+
+#section6{
+  background-color: rgba(255, 204, 204,0.9);
+}
+
+#section6:hover{
+  background-color: rgba(255, 204, 204,0.7);
+}
+
+#section6-container{
+  padding: 50px;
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#section6 label, #section6 button{
+  color: #FFF;
+  font-family: RobotoSlabLight;
+}
+
+#section6 input{
+  border-radius: 0;
+  border: 3px solid #FFF;
+  background-color: transparent;
+  color: #FFF;
+  font-weight: bold;
+  font-family: RobotoSlab;
+}
+
+#section6 button{
+  border-radius: 0;
+  border: 3px solid #FFF;
+  background-color: transparent;
+  text-transform: lowercase;
+}
+
+@media screen and (max-width: 576px) {
+#section6-container{
+  padding: 5px;
+  width: 90%;
+}
+
+  #section6, #img4{
+    height: 80vh;
+  }
+}

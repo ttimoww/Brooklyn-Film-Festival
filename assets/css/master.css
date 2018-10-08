@@ -1,0 +1,89 @@
+/* FONTS */
+@font-face {
+  font-family: RobotoSlabLight;
+  src: url(../fonts/RobotoSlab-Light.ttf);
+}
+
+@font-face {
+  font-family: RobotoSlab;
+  src: url(../fonts/RobotoSlab-Regular.ttf);
+}
+
+@font-face {
+  font-family: RobotoSlabBold;
+  src: url(../fonts/RobotoSlab-Bold.ttf);
+}
+
+/* GENERAL STYLES */
+body{
+  /* overflow: hidden; */
+}
+
+h1{
+  font-family: RobotoSlabBold;
+  color: #FFF;
+}
+
+h2{
+  font-family: RobotoSlab;
+  color: #FFF;
+}
+
+h3{
+  font-family: RobotoSlabLight;
+  color: #FFF;
+}
+
+.section-button{
+  padding: 10px;
+  border: 4px solid #FFF;
+  font-size: 3em;
+  text-transform: lowercase;
+  color: #FFF;
+  font-family: RobotoSlab;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+.section-button:hover{
+  color: #FFF;
+  text-decoration: underline;
+}
+
+/* NAVIGATION */
+.navigation{
+  /* border: 1px solid black; */
+}
+
+.navigation ul{
+  list-style: none;
+  margin: 20px 0px 0px -10px;
+  padding: 0;
+}
+
+.navigation ul li{
+  display: inline;
+}
+
+.navigation ul li a{
+  color: #000;
+  font-family: RobotoSlab;
+  font-size: 13px;
+  text-transform: lowercase;
+  opacity: 0.7;
+  padding: 10px;
+}
+
+.navigation ul li a:hover{
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.navigation ul li a img{
+  height: 13px;
+  margin-right: 2px;
+}
