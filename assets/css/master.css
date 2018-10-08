@@ -34,6 +34,11 @@ h3{
   color: #FFF;
 }
 
+h4{
+  font-family: RobotoSlabLight;
+  color: #FFF;
+}
+
 .section-button{
   padding: 10px;
   border: 4px solid #FFF;
@@ -54,6 +59,13 @@ h3{
   text-decoration: underline;
 }
 
+.background-transition{
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
 /* NAVIGATION */
 .navigation{
   /* border: 1px solid black; */

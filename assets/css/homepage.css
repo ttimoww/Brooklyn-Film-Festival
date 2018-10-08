@@ -33,6 +33,24 @@
   transition: all 300ms ease;
 }
 
+.side-xsmall{
+  height: 200px;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.side-xsmall:hover{
+  height: 200px;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
 /* BACKGROUND IMAGES */
 .background-images{
   position: absolute;
@@ -62,17 +80,23 @@
 #img4{
   background-image: url(../../img/4-min.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: 0% 70%;
 }
 
 #img5{
   background-image: url(../../img/5-min.jpg);
   background-size: cover;
-  background-position: 50% 80%;
+  background-position: center;
 }
 
 #img6{
   background-image: url(../../img/6-min.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+#img7{
+  background-image: url(../../img/7-min.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -162,32 +186,20 @@
   }
 }
 
-/* SECTION 4 + 5 + 6 */
+/* SECTION 4 */
 #section4{
-  background-color: rgba(75, 75, 75,0.8);
-}
-#section4:hover{
-  background-color: rgba(75, 75, 75,0.4);
-}
-
-#section5{
-  background-color: rgba(205, 132, 241,0.9);
-}
-
-#section5:hover{
-  background-color: rgba(205, 132, 241,0.6)
-}
-
-
-#section6{
   background-color: rgba(255, 204, 204,0.9);
 }
 
-#section6:hover{
+#section4:hover{
   background-color: rgba(255, 204, 204,0.7);
 }
 
-#section6-container{
+.signup{
+  height: 500px;
+}
+
+#signup-container{
   padding: 50px;
   width: 90%;
   position: absolute;
@@ -196,12 +208,12 @@
   transform: translate(-50%, -50%);
 }
 
-#section6 label, #section6 button{
+#signup-container label, #signup-container button{
   color: #FFF;
   font-family: RobotoSlabLight;
 }
 
-#section6 input{
+#signup-container input{
   border-radius: 0;
   border: 3px solid #FFF;
   background-color: transparent;
@@ -210,20 +222,80 @@
   font-family: RobotoSlab;
 }
 
-#section6 button{
+#signup-container button{
   border-radius: 0;
   border: 3px solid #FFF;
   background-color: transparent;
   text-transform: lowercase;
 }
 
-@media screen and (max-width: 576px) {
-#section6-container{
-  padding: 5px;
-  width: 90%;
+/* SECTION 5 + 6 + 7 */
+#section5{
+  background-color: rgba(75, 75, 75,0.8);
+  overflow: auto;
 }
 
-  #section6, #img4{
-    height: 80vh;
-  }
+#section5:hover{
+  background-color: rgba(75, 75, 75,0.6);
+}
+
+#section6{
+  background-color: rgba(246, 185, 59,0.8);
+}
+
+#section6:hover{
+  background-color: rgba(246, 185, 59,0.7);
+}
+
+#section7{
+  background-color: rgba(205, 132, 241,0.9);
+  overflow: auto;
+}
+
+#section7:hover{
+  background-color: rgba(205, 132, 241,0.6);
+}
+
+.weather{
+  height: 400px;
+}
+
+.weather-content{
+  padding: 50px;
+  width: 90%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.weather h2{
+  margin-top: 0;
+}
+
+.weatherDay h4{
+  text-align: center;
+  font-size: 1.3em;
+  width: 100%;
+  max-width: 125px;
+}
+
+.weatherDay img{
+  width: 100%;
+  max-width: 125px;
+  display: block;
+}
+
+.weatherDay p{
+  color: #FFF;
+  font-family: RobotoSlabLight;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 1.3em;
+  width: 100%;
+  max-width: 125px;
+}
+
+#section6 a, #section7 a{
+  font-size: 2em;
 }

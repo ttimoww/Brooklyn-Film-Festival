@@ -1,8 +1,8 @@
 function initMap(){
-  var brooklynBridgePark = {lat: 40.695710, lng: -74.004060};
+  var brooklynBridgePark = {lat: 40.697880, lng: -73.997841};
   var map = new google.maps.Map(document.getElementById('googleMap'), {
           center: brooklynBridgePark,
-          zoom: 7
+          zoom: 15
         });
   var marker = new google.maps.Marker({
           map: map,
