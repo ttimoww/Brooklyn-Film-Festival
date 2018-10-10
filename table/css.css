@@ -1,0 +1,18 @@
+.hide-table{
+  display: none;
+}
+
+p{
+  display: inline;
+  cursor: pointer;
+}
+
+.active-stage{
+  font-weight: bold;
+}
+
+.table-day{
+  width: 100%;
+  text-align: center;
+  background-color: #ececec;
+}

@@ -78,9 +78,9 @@
 }
 
 #img4{
-  background-image: url(../../img/4-min.jpg);
+  background-image: url(../../img/7-min.jpg);
   background-size: cover;
-  background-position: 0% 70%;
+  background-position: 0% 50%;
 }
 
 #img5{
@@ -96,9 +96,9 @@
 }
 
 #img7{
-  background-image: url(../../img/7-min.jpg);
+  background-image: url(../../img/4-min.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: 0% 70%;
 }
 
 /* SECTION 1 + 2 + 3 */
@@ -188,11 +188,12 @@
 
 /* SECTION 4 */
 #section4{
-  background-color: rgba(255, 204, 204,0.9);
+  background-color: rgba(75, 75, 75,0.8);
+  overflow: auto;
 }
 
 #section4:hover{
-  background-color: rgba(255, 204, 204,0.7);
+  background-color: rgba(75, 75, 75,0.6);
 }
 
 .signup{
@@ -231,12 +232,11 @@
 
 /* SECTION 5 + 6 + 7 */
 #section5{
-  background-color: rgba(75, 75, 75,0.8);
-  overflow: auto;
+  background-color: rgba(255, 204, 204,0.9);
 }
 
 #section5:hover{
-  background-color: rgba(75, 75, 75,0.6);
+  background-color: rgba(255, 204, 204,0.7);
 }
 
 #section6{
@@ -277,13 +277,15 @@
   text-align: center;
   font-size: 1.3em;
   width: 100%;
-  max-width: 125px;
+  /* max-width: 125px; */
+  text-align: center;
 }
 
 .weatherDay img{
   width: 100%;
   max-width: 125px;
   display: block;
+  margin: auto;
 }
 
 .weatherDay p{
@@ -293,7 +295,8 @@
   margin-top: 10px;
   font-size: 1.3em;
   width: 100%;
-  max-width: 125px;
+  /* max-width: 125px; */
+  text-align: center;
 }
 
 #section6 a, #section7 a{

@@ -67,7 +67,7 @@ function generateHTML(date, temp, desc, ico){
   weatherContainer.appendChild(dateHeader);
 
   var weatherIcon = document.createElement('img');
-  weatherIcon.src = '../img/openweather/' + ico + '.png';
+  weatherIcon.src = 'img/openweather/' + ico + '.png';
   weatherContainer.appendChild(weatherIcon);
 
   var weatherDesc = document.createElement('p');

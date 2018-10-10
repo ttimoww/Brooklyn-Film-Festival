@@ -1,0 +1,118 @@
+/* schedule */
+/* LEFT */
+.background-images{
+  position: absolute;
+  left: 0; top: 0; right: 0;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.schedule-left-image{
+  height: 100vh;
+  background-image: url(../../img/3-min.jpg);
+  background-position: right;
+  background-size: cover;
+}
+
+.schedule-left{
+  background-color: rgba(50, 255, 126,0.9);
+  height: 100vh;
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.schedule-left:hover{
+  background-color: rgba(50, 255, 126,0.6);
+  -webkit-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.schedule-left p{
+  cursor: default;
+}
+
+.schedule-left p:hover{
+  text-decoration: none;
+}
+
+@media screen and (min-width: 1080px) {
+  .schedule-left p{
+    font-size: 5em;
+    border: 6px solid #FFF;
+  }
+}
+
+/* RIGHT */
+.schedule-container h2{
+  font-family: RobotoSlabLight;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.schedule-container p{
+  font-family: RobotoSlab;
+  font-size: 13px;
+  margin-bottom: 10px;
+  line-height: 23px;
+}
+
+#stage1, #stage2, #stage3{
+  text-align: center;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+  cursor: pointer;
+  margin: 20px 0px;
+  font-weight: bold;
+}
+
+.active-stage{
+  border-bottom: 2px solid rgba(50, 255, 126,0.8);
+  font-weight: 400;
+}
+
+table{
+  font-family: RobotoSlabLight;
+  font-size: 13px;
+}
+
+.hide-table{
+  display: none;
+}
+
+.table-day p{
+padding: 40px 0px 0px 0px;
+}
+
+@media screen and (max-width: 768px) {
+  .schedule-left-image, .schedule-left{
+    height: 30vh;
+  }
+
+  .schedule-left p{
+    line-height: 40px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .schedule-right{
+    overflow-y: scroll;
+    min-height: 500px;
+    max-height: 100vh;
+  }
+  .schedule-right::-webkit-scrollbar {
+      display: none;
+  }
+}
