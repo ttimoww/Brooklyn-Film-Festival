@@ -130,6 +130,10 @@
   padding: 50px 0px 0px 50px;
 }
 
+#section1-container h1{
+  font-size: 3.8em;
+}
+
 #section1-container h3{
   font-size: 3em;
   margin-top: 100px;
@@ -232,11 +236,15 @@
 
 /* SECTION 5 + 6 + 7 */
 #section5{
-  background-color: rgba(255, 204, 204,0.9);
+  /* background-color: rgba(255, 204, 204,0.9); pink */
+  /* background-color: rgba(255, 77, 77,0.9);  red */
+  background-color: rgba(205, 132, 241,0.9);
 }
 
 #section5:hover{
-  background-color: rgba(255, 204, 204,0.7);
+  /* background-color: rgba(255, 204, 204,0.7); pink */
+  /* background-color: rgba(255, 77, 77,0.7); red */
+  background-color: rgba(205, 132, 241,0.6);
 }
 
 #section6{
@@ -248,12 +256,11 @@
 }
 
 #section7{
-  background-color: rgba(205, 132, 241,0.9);
-  overflow: auto;
+  background-color: rgba(255, 77, 77,0.9);
 }
 
 #section7:hover{
-  background-color: rgba(205, 132, 241,0.6);
+  background-color: rgba(255, 77, 77,0.7);
 }
 
 .weather{

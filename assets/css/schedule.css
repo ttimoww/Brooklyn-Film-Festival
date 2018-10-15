@@ -88,12 +88,22 @@ table{
   font-size: 13px;
 }
 
+table td {
+  word-wrap:break-word;
+  word-break:break-all;
+}
+
 .hide-table{
   display: none;
 }
 
 .table-day p{
+  font-size: 1.5em;
 padding: 40px 0px 0px 0px;
+}
+
+.movie-title{
+  font-size: 1.1em;
 }
 
 @media screen and (max-width: 768px) {
