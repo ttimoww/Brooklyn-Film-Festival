@@ -80,22 +80,28 @@
 #img4{
   background-image: url(../../img/7-min.jpg);
   background-size: cover;
-  background-position: 0% 50%;
+  background-position: left;
 }
 
 #img5{
+  background-image: url(../../img/8-min.jpg);
+  background-size: cover;
+  position: top left;
+}
+
+#img6{
   background-image: url(../../img/5-min.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#img6{
+#img7{
   background-image: url(../../img/6-min.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#img7{
+#img8{
   background-image: url(../../img/4-min.jpg);
   background-size: cover;
   background-position: 0% 70%;
@@ -190,14 +196,21 @@
   }
 }
 
-/* SECTION 4 */
+/* SECTION 4 + 5 */
 #section4{
-  background-color: rgba(75, 75, 75,0.8);
-  overflow: auto;
+  background-color: rgba(205, 132, 241,0.9);
 }
 
 #section4:hover{
-  background-color: rgba(75, 75, 75,0.6);
+  background-color: rgba(205, 132, 241,0.6);
+}
+
+#section5{
+  background-color: rgba(255, 77, 77,0.9);
+}
+
+#section5:hover{
+  background-color: rgba(255, 77, 77,0.7);
 }
 
 .signup{
@@ -206,7 +219,7 @@
 
 #signup-container{
   padding: 50px;
-  width: 90%;
+  width: 60%;
   position: absolute;
   left: 50%;
   top: 50%;
@@ -216,6 +229,11 @@
 #signup-container label, #signup-container button{
   color: #FFF;
   font-family: RobotoSlabLight;
+}
+
+#signup-container label{
+  font-size: 1.2em;
+  font-weight: 400;
 }
 
 #signup-container input{
@@ -234,33 +252,45 @@
   text-transform: lowercase;
 }
 
-/* SECTION 5 + 6 + 7 */
-#section5{
-  /* background-color: rgba(255, 204, 204,0.9); pink */
-  /* background-color: rgba(255, 77, 77,0.9);  red */
-  background-color: rgba(205, 132, 241,0.9);
+.news{
+  height: 500px;
 }
 
-#section5:hover{
-  /* background-color: rgba(255, 204, 204,0.7); pink */
-  /* background-color: rgba(255, 77, 77,0.7); red */
-  background-color: rgba(205, 132, 241,0.6);
+@media screen and (max-width: 576px) {
+  #signup-container{
+    width: 100%;
+  }
+
+  #section5, #img5{
+    height: 320px;
+  }
 }
 
+/* SECTION 6 + 7 + 8 */
 #section6{
-  background-color: rgba(246, 185, 59,0.8);
+  background-color: rgba(205, 132, 241,0.9);
+  background-color: rgba(75, 75, 75,0.8);
 }
 
 #section6:hover{
-  background-color: rgba(246, 185, 59,0.7);
+  background-color: rgba(205, 132, 241,0.6);
+  background-color: rgba(75, 75, 75,0.6);
 }
 
 #section7{
-  background-color: rgba(255, 77, 77,0.9);
+  background-color: rgba(246, 185, 59,0.8);
 }
 
 #section7:hover{
-  background-color: rgba(255, 77, 77,0.7);
+  background-color: rgba(246, 185, 59,0.7);
+}
+
+#section8{
+  background-color: rgba(255, 204, 204,0.9);
+}
+
+#section8:hover{
+  background-color: rgba(255, 204, 204,0.7);
 }
 
 .weather{
@@ -306,6 +336,6 @@
   text-align: center;
 }
 
-#section6 a, #section7 a{
+#section7 a, #section8 a{
   font-size: 2em;
 }
