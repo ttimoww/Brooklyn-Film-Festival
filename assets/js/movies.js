@@ -4,7 +4,7 @@ var trailerIframe = document.querySelector("#trailer-iframe")
 
 // FILL STAGE TABLE
 function fillTable(stage){
-  fetch("../../assets/json/" + stage + ".json")
+  fetch("assets/json/" + stage + ".json")
   .then(res => res.json())
   .then(function(data){
 
