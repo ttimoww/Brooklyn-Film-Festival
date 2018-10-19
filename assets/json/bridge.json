@@ -1,0 +1,140 @@
+{
+	"stage": "forest",
+	"list": [{
+			"day": "Monday",
+			"date": "8/5",
+			"movies": [
+				{
+					"title": "Sierra Burgess Is a Loser 7",
+					"genre": "Comedy, Drama, Romance",
+					"time": "1PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/q9Pk_Eq4BUc"
+				},
+				{
+					"title": "Mile 22",
+					"genre": "Action, Adventure, Crime",
+					"time": "4PM",
+					"age": "8+",
+					"trailer": "https://www.youtube.com/embed/eJU6S5KOsNI"
+				},
+				{
+					"title": "Three Billboards Outside Ebbing, Missouri",
+					"genre": "Comedy, Crime, Drama",
+					"time": "7PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/Jit3YhGx5pU"
+				},
+				{
+					"title": "Murder on the Orient Express",
+					"genre": "Crime, Drama, Mystery",
+					"time": "10PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/Mq4m3yAoW8E"
+				}
+			]
+		},
+		{
+			"day": "Tuesday",
+			"date": "8/6",
+			"movies": [
+				{
+					"title": "Dunkirk",
+					"genre": "Action, Drama, History",
+					"time": "1PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/F-eMt3SrfFU"
+				},
+				{
+					"title": "The Mercy",
+					"genre": "Adventure, Biography, Drama",
+					"time": "4PM",
+					"age": "6+",
+					"trailer": "https://www.youtube.com/embed/kAIRycQsUhM"
+				},
+				{
+					"title": "Hostiles",
+					"genre": "Adventure, Drama, Western",
+					"time": "7PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/1M5cj4UmscE"
+				},
+				{
+					"title": "War for the Planet of the Apes",
+					"genre": "Action, Adventure, Drama",
+					"time": "10PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/qxjPjPzQ1iU"
+				}
+			]
+		},
+		{
+			"day": "Wednesday",
+			"date": "8/6",
+			"movies": [
+				{
+					"title": "La La Land",
+					"genre": "Comedy, Drama, Music",
+					"time": "10PM",
+					"age": "6+",
+					"trailer": "https://www.youtube.com/embed/0pdqf4P9MB8"
+				},
+				{
+					"title": "Guardians of the Galaxy Vol. 2",
+					"genre": "Action, Adventure, Comedy",
+					"time": "4PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/2cv2ueYnKjg"
+				},
+				{
+					"title": "Wonder Woman",
+					"genre": "Action, Adventure, Fantasy",
+					"time": "7PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/MlwHKphUU_Y"
+				},
+				{
+					"title": "John Wick: Chapter 2",
+					"genre": "Action, Crime, Thriller",
+					"time": "1PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/XGk2EfbD_Ps"
+				}
+			]
+		},
+		{
+			"day": "Thursday",
+			"date": "8/7",
+			"movies": [
+				{
+					"title": "Baby Driver",
+					"genre": "Action, Crime, Drama",
+					"time": "1PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/D9YZw_X5UzQ"
+				},
+				{
+					"title": "The Zookeeper's Wife",
+					"genre": "Biography, Drama, History",
+					"time": "4PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/rJNFeHHGGN4"
+				},
+				{
+					"title": "A Ghost Story",
+					"genre": "Drama, Fantasy, Romance",
+					"time": "7PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/c_3NMtxeyfk"
+				},
+				{
+					"title": "HHhH",
+					"genre": "Action, Biography, Thriller",
+					"time": "10PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/EhGS2jnfMus"
+				}
+			]
+		}
+	]
+}

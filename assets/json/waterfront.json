@@ -1,0 +1,141 @@
+{
+  "stage" : "waterfront",
+  "list": [
+    {
+      "day": "Monday",
+      "date": "8/5",
+      "movies": [
+        {
+          "title": "Star Wars 1",
+          "genre": "Action, Adventure, Fantasy",
+          "time": "12PM",
+          "age": "8+",
+          "trailer": "https://www.youtube.com/embed/bD7bpG-zDJQ?rel=0"
+        },
+        {
+          "title": "Venom",
+          "genre": "Action, Horror, Sci-Fi",
+          "time": "3PM",
+          "age": "12+",
+          "trailer": "https://www.youtube.com/embed/xLCn88bfW1o?rel=0"
+        },
+        {
+          "title": "A simple favor",
+          "genre": "Comedy, Crime, Drama",
+          "time": "6PM",
+          "age": "12+",
+          "trailer": "https://www.youtube.com/embed/rAqMlh0b2HU?rel=0"
+        },
+        {
+          "title": "Solo: A Star Wars Story",
+          "genre": "Action, Adventure, Fantasy",
+          "time": "9PM",
+          "age": "12+",
+          "trailer": "https://www.youtube.com/embed/jPEYpryMp2s?rel=0"
+        }
+      ]
+    },
+    {
+      "day": "Tuesday",
+      "date": "8/6",
+      "movies": [
+        {
+          "title": "The Predator",
+          "genre": "Action, Adventure, Horror",
+          "time": "12PM",
+          "age": "16+",
+          "trailer": "https://www.youtube.com/embed/50_Ala5BKBo?rel=0"
+        },
+        {
+          "title": "Ant-Man and the Wasp",
+          "genre": "Action, Adventure, Sci-Fi",
+          "time": "3PM",
+          "age": "12+",
+          "trailer": "https://www.youtube.com/embed/UUkn-enk2RU?rel=0"
+        },
+        {
+          "title": "Aquaman",
+          "genre": "Action, Adventure, Fantasy",
+          "time": "6PM",
+          "age": "16+",
+          "trailer": "https://www.youtube.com/embed/WDkg3h8PCVU?rel=0"
+        },
+        {
+          "title": "The Nun",
+          "genre": "Horror, Thrillery",
+          "time": "9PM",
+          "age": "16+",
+          "trailer": "https://www.youtube.com/embed/pzD9zGcUNrw"
+        }
+      ]
+    },
+    {
+      "day": "Wednesday",
+      "date": "8/6",
+      "movies": [
+        {
+          "title": "Spider-Man: Into the Spider-Verse",
+          "genre": "Action, Adventure",
+          "time": "12PM",
+          "age": "12+",
+          "trailer": "https://www.youtube.com/embed/sR46T7pSTvQ?rel=0"
+        },
+        {
+          "title": "Avengers: Infinity War",
+          "genre": "Action, Adventure, Fantasy",
+          "time": "3PM",
+          "age": "12+",
+          "trailer": "https://www.youtube.com/embed/6ZfuNTqbHE8"
+        },
+        {
+          "title": "Jurassic World: Fallen Kingdom",
+          "genre": "Action, Adventure, Fantasy",
+          "time": "6PM",
+          "age": "12+",
+          "trailer": "https://www.youtube.com/embed/RFinNxS5KN4"
+        },
+        {
+          "title": "Halloween",
+          "genre": "Horror, Thriller",
+          "time": "9PM",
+          "age": "16+",
+          "trailer": "https://www.youtube.com/embed/ek1ePFp-nBI"
+        }
+      ]
+    },
+    {
+      "day": "Thursday",
+      "date": "8/7",
+      "movies": [
+        {
+          "title": "Deadpool 2",
+          "genre": "Action, Adventure, Comedy",
+          "time": "12PM",
+          "age": "16+",
+          "trailer": "https://www.youtube.com/embed/D86RtevtfrA"
+        },
+        {
+          "title": "Crazy Rich Asians"  ,
+          "genre": "Action, Comedy, Romance",
+          "time": "3PM",
+          "age": "9+",
+          "trailer": "https://www.youtube.com/embed/ZQ-YX-5bAs0"
+        },
+        {
+          "title": "Mission: Impossible - Fallout",
+          "genre": "Action, Adventure, Thrillery",
+          "time": "6PM",
+          "age": "12+",
+          "trailer": "https://www.youtube.com/embed/wb49-oV0F78"
+        },
+        {
+          "title": "Hell Fest",
+          "genre": "Horror",
+          "time": "9PM",
+          "age": "16+",
+          "trailer": "https://www.youtube.com/embed/2zNAtmmWSJY"
+        }
+      ]
+    }
+  ]
+}

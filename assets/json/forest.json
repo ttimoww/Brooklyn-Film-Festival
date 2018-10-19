@@ -1,0 +1,136 @@
+{
+	"stage": "forest",
+	"list": [{
+			"day": "Monday",
+			"date": "8/5",
+			"movies": [{
+					"title": "Black '47",
+					"genre": "Action, Drama",
+					"time": "1:30PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/6znv9iBGX6w"
+				},
+				{
+					"title": "Hotel Transylvania 3: Summer Vacation",
+					"genre": "Animation, Adventure, Comedy",
+					"time": "3:30PM",
+					"age": "8+",
+					"trailer": "https://www.youtube.com/embed/43OVm86-4rU"
+				},
+				{
+					"title": "The First Purge",
+					"genre": "Action, Horror, Sci-Fi",
+					"time": "6:30PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/UL29y0ah92w"
+				},
+				{
+					"title": "Hereditary",
+					"genre": "Drama, Horror, Mystery",
+					"time": "9:30PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/V6wWKNij_1M"
+				}
+			]
+		},
+		{
+			"day": "Tuesday",
+			"date": "8/6",
+			"movies": [{
+					"title": "Skyscraper",
+					"genre": "Action, Thriller",
+					"time": "1:30PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/t9QePUT-Yt8"
+				},
+				{
+					"title": "A Wrinkle in Time",
+					"genre": "Adventure, Family, Fantasy",
+					"time": "3:30PM",
+					"age": "6+",
+					"trailer": "https://www.youtube.com/embed/UhZ56rcWwRQ"
+				},
+				{
+					"title": "Incredibles 2",
+					"genre": "Animation, Action, Adventure",
+					"time": "6:30PM",
+					"age": "6+",
+					"trailer": "https://www.youtube.com/embed/i5qOzqD9Rms"
+				},
+				{
+					"title": "Black Panther",
+					"genre": "Action, Adventure, Sci-Fi",
+					"time": "9:30PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/xjDjIWPwcPU"
+				}
+			]
+		},
+		{
+			"day": "Wednesday",
+			"date": "8/6",
+			"movies": [{
+					"title": "Spider-Man: Into the Spider-Verse",
+					"genre": "Action, Adventure",
+					"time": "1:30PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/sR46T7pSTvQ"
+				},
+				{
+					"title": "Ready Player Oner",
+					"genre": "Action, Adventure, Sci-Fi",
+					"time": "3:30PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/cSp1dM2Vj48"
+				},
+				{
+					"title": "To All the Boys I've Loved Before",
+					"genre": "Drama, Romance",
+					"time": "6:30PM",
+					"age": "6+",
+					"trailer": "https://www.youtube.com/embed/555oiY9RWM4"
+				},
+				{
+					"title": "Peppermint",
+					"genre": "Action, Drama, Thriller",
+					"time": "9:30PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/eeBMQpzoEXQ"
+				}
+			]
+		},
+		{
+			"day": "Thursday",
+			"date": "8/7",
+			"movies": [{
+					"title": "Tag",
+					"genre": "Comedy",
+					"time": "1:30PM",
+					"age": "12+",
+					"trailer": "https://www.youtube.com/embed/kjC1zmZo30U"
+				},
+				{
+					"title": "Mamma Mia! Here We Go Again",
+					"genre": "Comedy, Musical, Romance",
+					"time": "3:30PM",
+					"age": "8+",
+					"trailer": "https://www.youtube.com/embed/nd4cLL_MP7M"
+				},
+				{
+					"title": "Robin Hood",
+					"genre": "Action, Adventurey",
+					"time": "6:30PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/zwPn9ZnbCo0"
+				},
+				{
+					"title": "Annihilation",
+					"genre": "Adventure, Drama, Horror",
+					"time": "9:30PM",
+					"age": "16+",
+					"trailer": "https://www.youtube.com/embed/89OP78l9oF0"
+				}
+			]
+		}
+	]
+}

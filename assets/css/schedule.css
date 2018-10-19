@@ -99,7 +99,12 @@ table td {
 
 .table-day p{
   font-size: 1.5em;
-padding: 40px 0px 0px 0px;
+  padding: 40px 0px 0px 0px;
+}
+
+.table img{
+  height: 25px;
+  cursor: pointer;
 }
 
 .movie-title{
@@ -125,4 +130,24 @@ padding: 40px 0px 0px 0px;
   .schedule-right::-webkit-scrollbar {
       display: none;
   }
+}
+
+/* TRAILER POPUP */
+
+.trailer-container{
+  height: 100vh;
+  position: absolute;
+  left: 0; top: 0; right: 0;
+  background-color: rgba(43, 43, 43, 0.9);
+}
+
+.trailer-container iframe{
+  width: 560px;
+  max-width: 90vw;
+  height: 315px;
+  position: absolute;
+  border: none;
+  top: 50%; left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
 }
