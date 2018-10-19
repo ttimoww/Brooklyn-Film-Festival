@@ -84,9 +84,15 @@
   text-transform: uppercase;
 }
 
-.news-post p{
+#post-text p{
   /* text-align: center; */
+  width: 100%;
   font-family: RobotoSlab;
+}
+
+#date{
+  font-size: 0.8em;
+  opacity: 0.7;
 }
 
 #news1{
