@@ -136,7 +136,7 @@ table td {
 
 .trailer-container{
   height: 100vh;
-  position: absolute;
+  position: fixed;
   left: 0; top: 0; right: 0;
   background-color: rgba(43, 43, 43, 0.9);
 }
