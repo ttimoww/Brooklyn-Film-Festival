@@ -1,4 +1,4 @@
-function initTable(){
+const initTable = function(){
   var stage1 = document.querySelector("#stage1");
   var stage2 = document.querySelector("#stage2");
   var stage3 = document.querySelector("#stage3");
@@ -32,11 +32,21 @@ function initTable(){
     hideTable(stage1Table);
   });
 };
-function showTable(i){
-  i.classList.remove('hide-table');
+
+/**
+* Shows table by removing specific class
+* @param {string} table class name of table you want to hide
+*/
+const showTable = function(table){
+  table.classList.remove('hide-table');
 }
-function hideTable(i){
-  i.classList.add('hide-table');
+
+/**
+* Hides table by removing specific class
+* @param {string} table class name of table you want to show
+*/
+const hideTable = function(table){
+  table.classList.add('hide-table');
 }
 
 initTable();

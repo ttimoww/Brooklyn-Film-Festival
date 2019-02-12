@@ -7,7 +7,7 @@ function initMap(){
   var marker = new google.maps.Marker({
           map: map,
           position: brooklynBridgePark,
-          title: 'Brooklyn Bridge Park!'
+          title: 'Brooklyn Bridge Park'
         });
 }
 

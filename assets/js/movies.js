@@ -1,15 +1,15 @@
-// VARIABLES
 var trailerContainer = document.querySelector(".trailer-container");
 var trailerIframe = document.querySelector("#trailer-iframe")
 
-// FILL STAGE TABLE
-function fillTable(stage){
+/**
+* Render table with movies to page
+* @param {string} stage Name of the stage you want to render to the page
+*/
+const fillTable = function(stage){
   fetch("assets/json/" + stage + ".json")
   .then(res => res.json())
   .then(function(data){
-
     let tableBody = document.querySelector("#tbody-" + stage);
-
     for(let day of data.list){
       // Create tr with day and date
       var tr = document.createElement('tr');
@@ -62,18 +62,22 @@ function fillTable(stage){
   });
 }
 
-function initTrailer(url){
+/**
+* Set video of the trailer popup window
+* @param {string} url Url of the trailer
+*/
+const initTrailer = function(url){
   trailerContainer.style.display = "block";
   trailerIframe.src = url;
 }
 
-// LISTENERS
+// Listeners
 trailerContainer.addEventListener("click", function(){
   trailerContainer.style.display = 'none';
   trailerIframe.src = "";
 });
 
-// INITPAGE
+
 function initPage(){
   fillTable("waterfront");
   fillTable("forest");
